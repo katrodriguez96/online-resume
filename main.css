@@ -7,29 +7,53 @@ body {
     padding: 3em;
 }
 
+div {
+    border: 1px solid black;
+    margin: 1em;
+}
+
 ul {
     list-style: none;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: .2em;
+}
+
+h2 {
+    margin-top: .2em;
 }
 
 .container {
     display: flex;
+    margin: .5em;
 }
 
 #header {
     flex-direction: column;
-    align-items: center;
     border: 1px solid blue;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+#contact_info {
+    padding: .5em 0;
 }
 
 #main {
-    padding: 3em;
+    padding: 1em;
     align-items: stretch;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border: 1px solid red;
 }
 
-#main div {
-    border: 1px solid black;
+#test {
+    width: 50%;
+}
+
+#projects {
+    width: 50%;
 }
 
 #footer {
