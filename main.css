@@ -10,11 +10,16 @@ body {
 div {
     border: 1px solid black;
     margin: 1em;
+    padding: .5em;
+    position: relative;
+    text-align: center;
 }
 
 ul {
     list-style: none;
     padding: 0;
+    position: relative;
+    columns: 2;
 }
 
 h1 {
