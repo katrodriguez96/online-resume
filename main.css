@@ -4,15 +4,16 @@
 
 body {
     margin: 0;
-    padding: 3em;
+    padding: 2em 9em;
+    font-family: Georgia, serif;
 }
 
 div {
-    border: 1px solid black;
-    margin: 1em;
-    padding: .5em;
+    /*border: 1px solid black;*/
+    margin: .4em;
+    /*padding: .5em;*/
     position: relative;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 ul {
@@ -22,14 +23,13 @@ ul {
     columns: 2;
 }
 
-h1 {
-    margin-bottom: .2em;
+h1, h2, h3, h4 {
+    margin: .4em 0;
 }
 
-h2 {
-    margin-top: .2em;
+p {
+    margin: .3em 0;
 }
-
 .container {
     display: flex;
     margin: .5em;
@@ -37,20 +37,20 @@ h2 {
 
 #header {
     flex-direction: column;
-    border: 1px solid blue;
+    border: 1px solid gray;
     text-align: center;
     justify-content: space-evenly;
 }
 
 #contact_info {
-    padding: .5em 0;
+    margin: .3em 0;
 }
 
 #main {
-    padding: 1em;
+    /*padding: 1em;*/
     align-items: stretch;
     justify-content: space-evenly;
-    border: 1px solid red;
+    border: 1px solid gray;
 }
 
 #test {
@@ -63,5 +63,5 @@ h2 {
 
 #footer {
     justify-content: space-between;
-    border: 1px solid green;
+    border: 1px solid gray;
 }
